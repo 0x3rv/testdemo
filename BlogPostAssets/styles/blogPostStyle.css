@@ -470,14 +470,14 @@ footer {
 @media screen and (max-width:480px) {
 #mainwrapper header #logo {
 	/* Company Logo text in header */
-	width: 98%;
+	width: 100%;
 	margin-left: 0px;
 }
 #mainwrapper header nav {
 	/*navigation links in header */
 	text-align: center;
 	background-color: rgba(255,255,255,1.00);
-	width: 98%;
+	width: 100%;
 }
 #content #sidebar #adimage {
 	/* Container for image in sidebar */
@@ -519,6 +519,7 @@ footer {
 	width: 100%;
 }
 	#mainwrapper{
+		align-content: center;
 		width: 100%;
 		padding: 0px;
 		margin: 0px;
@@ -533,26 +534,30 @@ footer {
 	}
 	.venom{
 		font-size: 15px;
-		width:95%;
+		width:98%;
 		padding-right: 0px;
 	}
 	.bttn{
 		font-size: 19px;
 	}
-	mainContent{
-		width: 100%;
-		
-	}
+     #mainContent {
+	
+	padding: 0px;
+	width: 100%;
+	
+    }
 	.venomcon{
 		width: 100%;
 	}
 	.minbg{
+		padding-left:0px;
 	background-color: black;
 		width: 100%;
 		
 	
 }
 	.mainh{
+		padding-left:3px; 
 		margin-top: 0px;
 	}
 	.site-title{
@@ -570,5 +575,15 @@ footer {
 }
 	img.seallogo{
 		height:15px;
+	}
+	li.summ{
+		
+		padding-left: 14px;
+	}
+	.summ{
+		padding-top: -5px;
+	}
+	.badgeh{
+		padding-left: 10px;
 	}
 }
