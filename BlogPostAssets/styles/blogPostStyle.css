@@ -113,6 +113,12 @@ ul li::before {
 tt {
 	font-size: 15px;
 }
+.shead{
+	font-size: 17px;
+	color: black;
+	
+}
+
 ul ol li {list-style-position: ;}
 #mainContent{
 	background-color: white;
@@ -321,7 +327,7 @@ footer article h3 {
 #mainContent {
 	/* Container for the blog post in individal blog view */
 	padding-left: 2%;
-	width: 71%;
+	width: 79%;
 	float: left;
 	padding-right: 2%;
 	padding-top: 41px;
@@ -332,7 +338,7 @@ footer article h3 {
 	padding-left: 2%;
 	padding-right: 2%;
 	float: left;
-	background-color: rgba(246,246,246,1.00);
+	background-color: #BFBFBF;
 	margin-top: 0px;
 	padding-top: 32px;
 }
@@ -541,6 +547,7 @@ footer {
 		font-size: 19px;
 	}
      #mainContent {
+	border-radius: 0px 50px 10px 10px;
 	
 	padding: 0px;
 	width: 100%;
