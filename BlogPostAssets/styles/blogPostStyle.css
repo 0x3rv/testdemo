@@ -26,7 +26,7 @@
 }
 @font-face {
     font-family: Carnage;
-    src: url("../webfont/carnage_movie_poster/SecularOne-Regular.ttf");
+    src: url("../webfont/PottaOne/PottaOne-Regular.ttf");
 }
 /*--------------------------------------*/
 
@@ -46,6 +46,7 @@ padding-top: auto;
 	max-width: 100%;
 }
 .hma {
+	padding-top: 30px;
 	letter-spacing: 2px;
 	word-spacing: 3px;
 	font-family: Carnage;
@@ -117,6 +118,10 @@ tt {
 	font-size: 17px;
 	color: black;
 	
+}
+.hideh{
+	width: 0px;
+	height: 0px;
 }
 
 ul ol li {list-style-position: ;}
@@ -574,6 +579,7 @@ footer {
    height: 20vh;
 }
 	.hma {
+	padding-top: 20px;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	font-family: Carnage;
@@ -593,5 +599,11 @@ footer {
 	}
 	.badgeh{
 		padding-left: 10px;
+	}
+	hr.hideh{
+		background-color: white;
+		height:10px;
+		width: 200px;
+		border-radius: 20px;
 	}
 }
